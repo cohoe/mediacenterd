@@ -28,3 +28,9 @@ Setup
    sudo firewall-cmd --add-port 5000/tcp
    sudo firewall-cmd --add-port 5000/tcp --permanent
    ```
+   
+Known Issues
+------------
+* Hardcoded user in Systemd unit file
+* No auth
+* No virtualenvironment.
